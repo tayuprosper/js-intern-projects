@@ -1,0 +1,54 @@
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10em;
+    /* width: 1; */
+}
+.expenses {
+    width: 100%;
+    /* margin: 2em; */
+    padding: 2em;
+}
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    /* width: 100%; */
+}
+th {
+    background-color: aliceblue;
+}
+td {
+    padding: 0.3em;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+}
+
+button {
+    background-color:rgb(6, 63, 110) ;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+
+input {
+     border-radius: 0.3em;
+     padding: 1em;
+     font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 2em;
+}

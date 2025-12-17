@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Expense Tracker</title>
+</head>
+<body>
+    <div class="expenses">
+        <table class="expenses" id="table" border="1">
+            <thead>
+                <tr>
+                    <th>S/N</th>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th>Option</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="actions">
+            <h3>Total Revenue Spent = <span id="totalRev">0</span></h3>
+            <button>Clear All Expenses</button>
+        </div>
+    </div>
+    <div class="input-form">
+        <input type="text" name="" id="item" placeholder="Enter Item Name">
+        <input type="number" name="" id="price" placeholder="Enter Item Price">
+        <button onclick="addExpense()">Add Item</button>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
