@@ -1,0 +1,128 @@
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+.buttons {
+    display: inline-flex;
+    background: #e5e7eb;
+    border-radius: 999px;
+    padding: 4px;
+    margin-bottom: 1em;
+}
+
+.buttons input {
+    display: none;
+}
+.buttons label {
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 999px;
+  font-weight: 500;
+  color: #374151;
+  transition: all 0.2s ease;
+}
+
+.buttons input:checked + label {
+  background: #2563eb;
+  color: white;
+}
+
+.header h1{
+    letter-spacing: -1.5px;
+    margin: 1em;
+    text-transform: uppercase;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+    
+}
+
+.header p{
+    max-width: 70%;
+    text-align: center;
+}
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.divs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+.title {
+    width: calc(100%/3 - 50px);
+    border: 1px solid #0f0d0d;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.logo {
+    background-color: black;
+    height: 2em;
+    width: 10%;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
+.darkmode {
+    background-color: #0f0d0d;
+    color: white;
+}
+
+.content-dark {
+    width: calc(100%/3 - 50px);
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.title {
+    width: calc(100%/3 - 50px);
+    border: 1px solid #070606;
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.title-dark {
+    width: calc(100%/3 - 50px);
+    border: 1px solid #6e6c6c;
+    border-radius: 10px;
+    padding: 16px;
+}
+.logo-dark {
+    background-color: rgb(216, 216, 216);
+    height: 2em;
+    width: 10%;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.bluemode {
+    background-color: #0a0227;
+    color: white;
+}
+
+.content-blue {
+    width: calc(100%/3 - 50px);
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    padding: 16px;
+}
