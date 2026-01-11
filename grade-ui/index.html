@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Studnet Grade GUI</title>
+</head>
+<body>
+    <div class="content">
+        <div class="input">
+            <h3>Check Student Grade</h3>
+            <input type="text" id="st-name" placeholder="Enter Student Name">
+            <input type="number" id="mark" placeholder="Score">
+            <button onclick="checkGrade()">Check Grade</button>
+            <button onclick="displayAllTestedStudents()">Display All Student</button>
+            <p><span id="disp-name"></span> <span id="disp-score"></span> <span id="disp-grade"></span></p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
